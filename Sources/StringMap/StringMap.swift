@@ -207,15 +207,7 @@ class StringPyramidEncoder {
     
     func transform(from: String) -> [Float] {
         
-        return from.unicodeScalars.map{ Float($0.hashValue) }
-        
-    }
-    
-    func transform(from: [Float]) -> String {
-        
-        let characterSequence = from.map{ UnicodeScalar(Int($0))! }
-            .map{ Character($0) }
-        return String.init(characterSequence)
+        return from.characters.map{ Float($0.hashValue) }
         
     }
     

@@ -26,7 +26,4 @@ $ swift run
 ```
 
 # License
-See [Apache License 2.0](https://github.com/o-micron/StringMap/blob/master/LICENSE)
-
-
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fo-micron%2FStringMap.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fo-micron%2FStringMap?ref=badge_large)
